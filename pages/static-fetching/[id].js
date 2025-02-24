@@ -1,5 +1,4 @@
 import ProductCard from "../../components/ProductCard";
-import "../../styles/globals.css";
 
 export async function getStaticPaths() {
     const res = await fetch("https://dummyjson.com/products/category/smartphones");

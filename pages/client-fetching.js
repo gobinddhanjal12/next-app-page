@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
-import "../styles/globals.css";
 
 export default function ClientFetching() {
     const [products, setProducts] = useState([]);

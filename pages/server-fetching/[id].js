@@ -1,5 +1,4 @@
 import ProductCard from "../../components/ProductCard";
-import "../../styles/globals.css";
 
 export async function getServerSideProps(context) {
     const { id } = context.params;
