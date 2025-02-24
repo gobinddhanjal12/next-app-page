@@ -1,4 +1,3 @@
-import "../styles/ProductCard.css";
 
 export default function ProductCard({ product }) {
     return (
